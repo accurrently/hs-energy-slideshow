@@ -1,0 +1,21 @@
+from: markdown
+to: revealjs
+
+output-file: ./output/revealjs/index.html
+
+citeproc: true
+
+# method is plain, webtex, gladtex, mathml, mathjax, katex
+# you may specify a url with webtex, mathjax, katex
+html-math-method:
+  method: mathjax
+  url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+# none, references, or javascript
+email-obfuscation: javascript
+
+incremental: true
+tab-stop: 4
+preserve-tabs: false
+slide-level: 2
+
+
