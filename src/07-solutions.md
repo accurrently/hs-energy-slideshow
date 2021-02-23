@@ -14,4 +14,4 @@ cleaner energy?
   * Not a lot of political support
   * But industry actually wants it because of the prisoner's dilemma
 * Performance standards
-  * LCFS
+  * Low-Carbon Fuel Standard
