@@ -23,7 +23,7 @@ For every load on the system, a generator somewhere has to serve that load.
 
 ## Bidding Into the Market
 
-![](../images/bidding.png){height=500px}
+![](./hs-energy-slideshow/images/bidding.png){height=500px}
 
 ## The Duck Curve
 
