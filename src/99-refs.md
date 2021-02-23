@@ -6,4 +6,3 @@
 
 📧 alex@acamp.me or amcampbell@ucdavis.edu
 
-## References {#refs .allowframebreaks}

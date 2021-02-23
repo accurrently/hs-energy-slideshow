@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Alex Campbell">
+  <meta name="keywords" content="energy, economics, California, policy, climate change">
+  <title>Energy, Environment, Electricity, and Economics</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/black.css" id="theme">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide">
+  <h1 class="title">Energy, Environment, Electricity, and Economics</h1>
+  <p class="subtitle">A primer on energy and climate policy in California</p>
+  <p class="author">Alex Campbell</p>
+</section>
+
+<section>
+<section id="energy-in-science" class="title-slide slide level1">
+<h1>Energy in Science</h1>
+
+</section>
+<section id="how-we-describe-energy-in-physics-and-chemistry" class="slide level2">
+<h2>How we describe energy in physics and chemistry</h2>
+<ul>
+<li class="fragment">Kinematics: <span class="math inline">\(W = Fx\)</span></li>
+<li class="fragment">Electricity: <span class="math inline">\(E = Pt = IVt\)</span></li>
+<li class="fragment">Chemistry: <span class="math inline">\(\Delta U\)</span></li>
+<li class="fragment">Mass-Energy: <span class="math inline">\(E = mc^2\)</span></li>
+</ul>
+</section>
+<section id="how-its-taught" class="slide level2">
+<h2>How it’s taught</h2>
+<ul>
+<li class="fragment">Friction and air resistance are often negligible or ignored at first
+<ul>
+<li class="fragment">There is a <em>very</em> good reason for this
+<ul>
+<li class="fragment">Finding drag coefficients is hard</li>
+<li class="fragment">Finding friction of flowing fluids is hard</li>
+</ul></li>
+<li class="fragment">Most of these values have to be measured experimentally, and don’t stay uniform</li>
+</ul></li>
+</ul>
+</section>
+<section id="easier-units" class="slide level2">
+<h2>Easier units</h2>
+<p>We like SI units. We use them wherever we can.</p>
+<ul>
+<li class="fragment">SI makes units easily interchangeable
+<ul>
+<li class="fragment"><span class="math inline">\(E = Fx = m \times a \times x\)</span></li>
+<li class="fragment"><span class="math inline">\(1 \textrm{J} = \frac{1 \textrm{m} \times 1 \textrm{kg}}{\textrm{s}^2} \times 1 \textrm{m}\)</span></li>
+</ul></li>
+<li class="fragment">Base-10 arithmetic is pretty easy</li>
+<li class="fragment">Nobody can remember how imperial units work</li>
+</ul>
+</section>
+<section id="how-its-used" class="slide level2">
+<h2>How it’s used</h2>
+<ul>
+<li class="fragment">Energy in physics and chemistry is all about what energy does to a system</li>
+<li class="fragment">This is a very narrow frame of reference, but very useful for examining those small systems</li>
+</ul>
+</section>
+<section class="slide level2">
+
+<p>This is not necessarily how it’s done in the energy industry.</p>
+</section></section>
+<section>
+<section id="energy-systems-thinking" class="title-slide slide level1">
+<h1>Energy Systems Thinking</h1>
+
+</section>
+<section id="systems-thinking" class="slide level2">
+<h2>Systems thinking?</h2>
+<p>It’s the difference between thinking about a single corn plant and <em>all</em> the corn in Iowa.</p>
+<div style="overflow: hidden; width: 100%; height: 350px; position: relative; display: flex; justify-content: center; align-items: center;" data-scroll="no">
+<blockquote class="twitter-tweet" data-width="550" data-dnt="true" data-align="center">
+<p lang="en" dir="ltr">
+You are slowly realizing it has literally been years, maybe decades, since you ate any meal made without corn.
+</p>
+— SwiftOnSecurity (<span class="citation" data-cites="SwiftOnSecurity">(<strong>SwiftOnSecurity?</strong>)</span>) <a href="https://twitter.com/SwiftOnSecurity/status/1074810043495796736?ref_src=twsrc%5Etfw">December 17, 2018</a>
+</blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+<p><small>(You could actually have a whole class on corn and energy.)</small></p>
+</section>
+<section id="bizarre-units" class="slide level2">
+<h2>Bizarre units</h2>
+<p>In the energy space, there a bunch of units to be aware of, but which units are used is largely determined by <em>scale</em> and <em>context</em>.</p>
+</section>
+<section id="watts" class="slide level2">
+<h2>Watts</h2>
+<ul>
+<li class="fragment">Used for electricity and fuels</li>
+<li class="fragment">End use: kWh</li>
+<li class="fragment">Industrial or power plant scale: MWh or GWh
+<ul>
+<li class="fragment">San Onofre NGS reactors 2 and 3 are each rated for about 1.1 GW</li>
+</ul></li>
+</ul>
+</section>
+<section id="megajoules-mj" class="slide level2">
+<h2>Megajoules: MJ</h2>
+<ul>
+<li class="fragment">Used for fuels, electricity, and others</li>
+</ul>
+</section>
+<section id="british-thermal-unit-btu" class="slide level2">
+<h2>British Thermal Unit: Btu</h2>
+<ul>
+<li class="fragment">Used for fuels</li>
+<li class="fragment">Quadrillion Btu, or “quads”
+<ul>
+<li class="fragment"><span class="math inline">\(10^{15} Btu \approx 293,071.07 GWh\)</span></li>
+</ul></li>
+</ul>
+</section>
+<section id="gal.-gasoline-equivalent-gge" class="slide level2">
+<h2>Gal. Gasoline Equivalent: GGE</h2>
+<p>1 GGE <span class="math inline">\(\approx\)</span> 131.76 MJ <span class="math inline">\(\approx\)</span> 36.6 kWh.</p>
+<table style="width:38%;">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 19%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Fuel</th>
+<th>LHV (Btu/gal)</th>
+<th style="text-align: center;">GGE</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Diesel B100 B20 E100</td>
+<td>128,488 119,550 126,700 76,330</td>
+<td style="text-align: center;">1.12 1.05 1.11 0.67</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section class="slide level2">
+
+<p>These units are useful to use for examining how energy <em>flows</em> through an economy.</p>
+</section></section>
+<section>
+<section id="energy-flows-and-accounting" class="title-slide slide level1">
+<h1>Energy Flows and Accounting</h1>
+
+</section>
+<section class="slide level2">
+
+<p>Energy economics is primarily concerned with how energy flows through the economy, and how that affects climate, quality of life, human health, and other factors.</p>
+</section>
+<section id="u.s.-energy-use-in-2018" class="slide level2">
+<h2>U.S. Energy use in 2018</h2>
+<p>101 Quads</p>
+<p><a href="../images/Energy_2018_United-States.png"><img data-src="../images/Energy_2018_United-States.png" style="width:75.0%" alt="U.S. Energy Use in 2018" /></a></p>
+</section>
+<section id="u.s.-carbon-emissions-in-2018" class="slide level2">
+<h2>U.S. Carbon emissions in 2018</h2>
+<p>5,268 Mt CO<sub>2</sub>e</p>
+<p><a href="../images/Carbon_2018_United-States.png"><img data-src="../images/Carbon_2018_United-States.png" style="width:75.0%" alt="U.S. Carbon Emissions in 2018" /></a></p>
+</section>
+<section id="kaya-identity" class="slide level2">
+<h2>Kaya identity</h2>
+<p><span class="math display">\[
+F = P \times \frac{G}{P} \times \frac{E}{G} \times \frac{F}{E}
+\]</span></p>
+<ul>
+<li class="fragment"><span class="math inline">\(F\)</span> is Carbon emissions</li>
+<li class="fragment"><span class="math inline">\(P\)</span> is Population</li>
+<li class="fragment"><span class="math inline">\(\frac{G}{P}\)</span> GDP per capita</li>
+<li class="fragment"><span class="math inline">\(\frac{E}{G}\)</span> is energy intensity of an economy</li>
+<li class="fragment"><span class="math inline">\(\frac{F}{E}\)</span> is carbon intensity of the energy</li>
+</ul>
+</section>
+<section id="breakout-discussion" class="slide level2">
+<h2>Breakout Discussion</h2>
+<p>The Kaya identity, while broad, essentially covers the problem of climate change and energy use. For the time being, humans have not been able to completely decarbonize any economy.</p>
+<p>In a breakout group, find three social, environmental, economic, or moral implications of the Kaya identity.</p>
+</section></section>
+<section>
+<section id="the-grid" class="title-slide slide level1">
+<h1>“The” Grid</h1>
+
+</section>
+<section class="slide level2">
+
+<p>There are several entities that manage grids in North America.</p>
+</section>
+<section id="nerc" class="slide level2">
+<h2>NERC</h2>
+<p>North American Electric Reliability Corporation</p>
+</section>
+<section class="slide level2">
+
+<p>NERC oversees the interconnection regions for the U.S. and Canada</p>
+<figure>
+<img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/NERC-map-en.svg/1024px-NERC-map-en.svg.png" style="background-color: white;" height="500" alt="NERC Regions" /><figcaption aria-hidden="true">NERC Regions</figcaption>
+</figure>
+</section>
+<section class="slide level2">
+
+<p>Interconnection’s purpose is to connect smaller regions and markets together in one big physical grid. This means if it’s really hot in Arizona, California can “export” electricity to the Southwest region for use.</p>
+<p>This helps maintain reliability.</p>
+</section>
+<section id="ferc" class="slide level2">
+<h2>FERC</h2>
+<p>Federal Energy Regulatory Commission</p>
+</section>
+<section class="slide level2">
+
+<p>FERC regulates the different energy markets in the United States.</p>
+<figure>
+<img data-src="https://www.ferc.gov/sites/default/files/2020-06/map-overview-electric.jpg" style="background-color: white;" height="500" alt="FERC Markets" /><figcaption aria-hidden="true">FERC Markets</figcaption>
+</figure>
+</section>
+<section id="caiso" class="slide level2">
+<h2>CAISO</h2>
+<iframe width="800px" height="450px" src="https://www.youtube-nocookie.com/embed/w63C6Nd1MzQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</section>
+<section class="slide level2">
+
+<p>CAISO is the body that manages California’s electricity market.</p>
+<ul>
+<li class="fragment">Basically the NYSE of California’s electricity market.</li>
+<li class="fragment">Manage bids for different types of power markets and award contracts</li>
+<li class="fragment">Also responsible for market stability</li>
+<li class="fragment">Is independent from the state government, but also answers to it</li>
+</ul>
+</section>
+<section id="utilities" class="slide level2">
+<h2>Utilities</h2>
+<ul>
+<li class="fragment">“Natural Monopolies”</li>
+<li class="fragment">Own most of the transmission and distribution infrastructure
+<ul>
+<li class="fragment">Transmission: 10+ kV</li>
+<li class="fragment">Distribution: 240-480 V</li>
+<li class="fragment">Substations</li>
+</ul></li>
+<li class="fragment">Investor-Owned
+<ul>
+<li class="fragment">Big 3: PG&amp;E, SDG&amp;E, SCE</li>
+</ul></li>
+<li class="fragment">Municipal (publicly-owned)
+<ul>
+<li class="fragment">Big 2: LADWP, SMUD</li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<p>It’s important to know that an electricity market refers to the <em>wholesale</em> cost of electricity and other services. It’s what utilities and power plant operators pay to one another.</p>
+<p>(Basically, it’s not what you see an on electric bill.)</p>
+<p>And to participate in the wholesale market, you have to have a load or production capacity of about 100 kW.</p>
+</section>
+<section class="slide level2">
+
+<p>Given this knowledge, what have you noticed about Texas?</p>
+</section></section>
+<section>
+<section id="a-big-green-deal" class="title-slide slide level1">
+<h1>A Big Green Deal</h1>
+
+</section>
+<section id="common-terms" class="slide level2">
+<h2>Common terms</h2>
+<p>There are many terms we can use to describe energy (specifically electricity) production.</p>
+<p>Some can be loaded terms, and others may be misleading.</p>
+</section>
+<section id="renewables" class="slide level2">
+<h2>Renewables</h2>
+<p>Resources that are effectively infinite, and can be replaced about as fast as they are used.</p>
+<ul>
+<li class="fragment">Includes: wind, solar, biomass, geothermal, and hydro</li>
+<li class="fragment">Status of “renewable” depending on jurisdiction
+<ul>
+<li class="fragment">In California, only “small hydro” (≤ 30 MW) is considered renewable</li>
+</ul></li>
+<li class="fragment">Wood is renewable, but doesn’t make a good fuel</li>
+</ul>
+</section>
+<section id="low-carbon" class="slide level2">
+<h2>Low-carbon</h2>
+<p>Energy sources that do not emit large amounts of greenhouse gases</p>
+<ul>
+<li class="fragment">Includes: nuclear (fission and <em>fusion</em>), wind, solar, geothermal, and hydro</li>
+<li class="fragment">Nuclear (fission) has almost no carbon emissions, but uranium is not a renewable fuel</li>
+</ul>
+</section>
+<section id="clean" class="slide level2">
+<h2>Clean</h2>
+<ul>
+<li class="fragment">Clean coal <em>is</em> cleaner than <em>traditional</em> coal, but generally refers to reductions in <em>local</em> pollutants
+<ul>
+<li class="fragment">Soot and particulates (PM<sub>2.5</sub>) that cause asthma and other issues</li>
+<li class="fragment">Sulfur oxides (SO<sub>x</sub>) causes smog</li>
+<li class="fragment">Nitrous oxides (NO<sub>x</sub>)</li>
+</ul></li>
+<li class="fragment">Clean coal does <em>not</em> mean it is clean in terms of global pollutants, namely CO<sub>2</sub></li>
+<li class="fragment">Natural gas doesn’t have the local pollutant problems coal does
+<ul>
+<li class="fragment">But it’s only a little less carbon-intensive</li>
+</ul></li>
+</ul>
+</section>
+<section id="nuclear" class="slide level2">
+<h2>Nuclear 👍</h2>
+<ul>
+<li class="fragment">Compared with fossil fuels, has fewer impacts (in practice) to human health and environment</li>
+<li class="fragment">Western power plants actually have a good safety record (safe enough for warships)</li>
+</ul>
+<figure>
+<img data-src="https://thumbs.gfycat.com/SaltyFineAttwatersprairiechicken-size_restricted.gif" alt="USS Nimitz (CVN 68)" /><figcaption aria-hidden="true">USS Nimitz (CVN 68)</figcaption>
+</figure>
+</section>
+<section id="nuclear-1" class="slide level2">
+<h2>Nuclear 👎</h2>
+<ul>
+<li class="fragment">Uranium mining and refining</li>
+<li class="fragment">Fissile material means countries can also make (lower yield) nuclear weapons</li>
+<li class="fragment">Meltdowns</li>
+</ul>
+<figure>
+<img data-src="https://i.pinimg.com/originals/83/28/a6/8328a69dfbc70c1bb32549a9c2f714b2.gif" alt="Chernobyl" /><figcaption aria-hidden="true">Chernobyl</figcaption>
+</figure>
+</section>
+<section id="meltdowns" class="slide level2">
+<h2>Meltdowns ☢</h2>
+<ul>
+<li class="fragment">Three Mile Island: Partial meltdown, no contamination escaped containment vessel</li>
+<li class="fragment">Fukushima: Result of a tsunami knocking out the plant’s cooling water pumps</li>
+<li class="fragment">Chernobyl: Soviets were recklessly incompetant in handling of a finicky reactor design
+<ul>
+<li class="fragment">Chernobyl had no containment structures like you see at San Onofre</li>
+</ul></li>
+</ul>
+</section>
+<section class="slide level2">
+
+<iframe width="800px" height="450px" src="https://www.youtube-nocookie.com/embed/hIWu8rbWLGo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+</section>
+<section id="intermittancy" class="slide level2">
+<h2>Intermittancy</h2>
+<p>A source is <em>intermittant</em> when its production cannot be called on at will. The opposite of intermittent is <em>dispatchable</em>.</p>
+<ul>
+<li class="fragment">Solar
+<ul>
+<li class="fragment">Requires…the sun</li>
+<li class="fragment">Efficiency decreases as temperature rises</li>
+</ul></li>
+<li class="fragment">Wind
+<ul>
+<li class="fragment">Wind doesn’t always blow</li>
+</ul></li>
+<li class="fragment">Hydro
+<ul>
+<li class="fragment">May have limited availability in drought years</li>
+</ul></li>
+</ul>
+</section></section>
+<section>
+<section id="californias-electricity-market" class="title-slide slide level1">
+<h1>California’s Electricity Market</h1>
+
+</section>
+<section class="slide level2">
+
+<p>California has a regulated wholesale electricity market managed by CAISO.</p>
+<p>Regulation exists, but the government only really steps in when it needs to.</p>
+</section>
+<section id="supply-and-demand" class="slide level2">
+<h2>Supply and Demand</h2>
+<p><img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Supply-and-demand.svg/1200px-Supply-and-demand.svg.png" style="background-color: white;" height="500" /></p>
+</section>
+<section id="economics-strikes-back" class="slide level2">
+<h2>Economics Strikes Back</h2>
+<p>Because you cannot store electric energy in wires, the electricity market is almost one of the best models of pure supply-and-demand model you could hope for.</p>
+<p>For most puproses, electricity must be used as soon as it it generated.</p>
+<p>For every load on the system, a generator somewhere has to serve that load.</p>
+</section>
+<section id="bidding-into-the-market" class="slide level2">
+<h2>Bidding Into the Market</h2>
+<p><img data-src="../images/bidding.png" height="500" /></p>
+</section>
+<section id="the-duck-curve" class="slide level2">
+<h2>The Duck Curve</h2>
+</section></section>
+<section>
+<section id="solutions" class="title-slide slide level1">
+<h1>Solutions</h1>
+
+</section>
+<section class="slide level2">
+
+<p>What solutions can you come up with to keep electricity affordable but incetivise cleaner energy?</p>
+</section>
+<section id="prisoners-dilemma" class="slide level2">
+<h2>Prisoner’s dilemma</h2>
+</section>
+<section id="market-based-regulations" class="slide level2">
+<h2>Market-based regulations</h2>
+<ul>
+<li class="fragment">Cap-and-Trade</li>
+<li class="fragment">Carbon Taxes
+<ul>
+<li class="fragment">Not a lot of political support</li>
+<li class="fragment">But industry actually wants it because of the prisoner’s dilemma</li>
+</ul></li>
+<li class="fragment">Performance standards
+<ul>
+<li class="fragment">Low-Carbon Fuel Standard # Thank You</li>
+</ul></li>
+</ul>
+</section>
+<section id="questions-comments-and-discussion" class="slide level2">
+<h2>Questions, comments, and discussion</h2>
+</section>
+<section id="contact" class="slide level2">
+<h2>Contact</h2>
+<p>📧 alex@acamp.me or amcampbell@ucdavis.edu</p>
+</section></section>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
+
+  // reveal.js plugins
+  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/math/math.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+        // Push each slide change to the browser history
+        history: true,
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    </body>
+</html>
