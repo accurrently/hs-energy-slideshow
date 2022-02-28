@@ -11,13 +11,13 @@ and how that affects climate, quality of life, human health, and other factors.
 
 101 Quads
 
-[![U.S. Energy Use in 2018](hs-energy-slideshow/images/Energy_2018_United-States.png){width=75%}](images/Energy_2018_United-States.png)
+[![U.S. Energy Use in 2018](images/Energy_2018_United-States.png){width=75%}](images/Energy_2018_United-States.png)
 
 ## U.S. Carbon emissions in 2018
 
 5,268 Mt CO~2~e
 
-[![U.S. Carbon Emissions in 2018](hs-energy-slideshow/images/Carbon_2018_United-States.png){width=75%}](images/Carbon_2018_United-States.png)
+[![U.S. Carbon Emissions in 2018](images/Carbon_2018_United-States.png){width=75%}](images/Carbon_2018_United-States.png)
 
 ## Kaya identity
 
